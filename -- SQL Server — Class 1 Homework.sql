@@ -1,4 +1,4 @@
--- SQL Server — Class 1 Homework
+-- SQL Server â€” Class 1 Homework
 -- BikeStores Sample Database
 
 
@@ -78,14 +78,14 @@ order by city asc
 -- showing their full name and email.
 
 select	
-	concat(first_name , '  ' , last_name) as full_name,
+	concat(first_name , ' ' , last_name) as full_name,
 	email
 from [sales].[staffs]
 where active = 1
 
 -- Q12: Using UNION:
 -- Get a combined list of all cities from both customers and stores
--- (no duplicates), sorted A–Z.
+-- (no duplicates), sorted Aâ€“Z.
 
 select city
 from [sales].[customers]
